@@ -1,0 +1,24 @@
+.services {
+    padding: 90px 0;
+}
+.service-row {
+	display: flex;
+	column-gap: 30px;
+}
+// .service-card {
+
+// }
+
+.service-card-img {
+    margin-bottom: 30px;
+}
+.service-card-title {
+	text-transform: uppercase;
+    font-weight: 600;
+    font-style: 24px;
+    margin-bottom: 10px;
+}
+.service-card p{
+	line-height: 2;
+
+}

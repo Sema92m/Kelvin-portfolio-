@@ -1,0 +1,30 @@
+.portfolio {
+    padding: 90px 0;
+    background-color: #f1f1f1;
+}
+.portfolio-title {
+	margin-bottom: 70px;
+	text-align: center;
+	
+}
+
+.project {
+	text-align: center;
+
+}
+.project + .project {
+	margin-top: 90px;
+
+}
+.project-img {
+	margin-bottom: 40px;
+}
+.project-title {
+	font-size: 18px;
+
+}
+.project-title a {
+	color: #000;
+	text-decoration: underline;
+
+}
