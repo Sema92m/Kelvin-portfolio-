@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-	margin-bottom: 76px;
+    margin-bottom: 76px;
 }
 
 .logo {
@@ -36,7 +36,9 @@
     font-weight: 500;
     font-style: 14px;
 }
-
+.nav-button {
+    display: none;
+}
 .nav-link {
     color: black;
 }
@@ -45,22 +47,20 @@
     color: #606060;
 }
 
-.header-row{
-	display: flex;
-	justify-content: space-between;
-	column-gap: 30px;
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
 }
-.header-content{
-	margin-top: 124px;
-	min-width: 500px;
+.header-content {
+    margin-top: 124px;
+    max-width: 500px;
 }
 .header-heading {
-	margin-bottom: 20px;
-	font-weight: 600;
-	font-style: 44px;
-	
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-style: 44px;
 }
-.header-content p{
-	line-height: 2;
+.header-content p {
+    line-height: 2;
 }
-
